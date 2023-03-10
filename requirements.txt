@@ -2,7 +2,7 @@ addict
 future
 librosa==0.8.1
 lmdb
-numba==0.56.4
+numba==0.51.0
 numpy
 opencv-contrib-python>=4.2.0.34
 opencv-python==4.6.0.66

@@ -41,8 +41,8 @@ RUN export DEBIAN_FRONTEND=noninteractive RUNLEVEL=1 ; \
 # # (if we use COPY it will invalidate the cache and  reinstall the dependencies for every change in the sources)
 WORKDIR /workspace
 RUN chmod -R a+w /workspace
-RUN git clone https://github.com/Rudrabha/Wav2Lip
-WORKDIR /workspace/Wav2Lip
+RUN git clone https://github.com/UnityGameDesigner/wav2lip.git
+WORKDIR /workspace/wav2lip
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 
